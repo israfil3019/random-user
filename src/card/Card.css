@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  margin-top: 1rem;
+}
+img,
+p {
+  padding: 0.5rem;
+}
+.card-box {
+  background-color: cadetblue;
+  width: 50vh;
+  min-width: fit-content;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px rgb(82, 138, 139), 6px 6px rgb(45, 75, 77),
+    9px 9px rgb(41, 67, 68), 12px 12px rgb(36, 62, 63),
+    15px 15px rgb(20, 33, 34);
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 6rem;
+  border-radius: 50%;
+}
+.logo {
+  float: left;
+  width: 2rem;
+}
+button {
+  background-color: cadetblue;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 1px darkgray;
+}
